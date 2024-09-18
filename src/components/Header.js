@@ -6,8 +6,8 @@ const Header = () => {
     <header className="header">
       <div className="overlay"></div>
       <div className="container">
-        <h1 className="title">Wedding Invitation</h1>
-        <p className="subtitle">Join us for a special celebration</p>
+        <h1 className="title">Hafiz & Atiqah</h1>
+        <h3 className="subtitle">Walimatul Urus</h3>
       </div>
     </header>
   );

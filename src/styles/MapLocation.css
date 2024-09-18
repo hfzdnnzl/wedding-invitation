@@ -18,8 +18,20 @@
     color: #666;
   }
   
-  iframe {
-    margin-top: 20px;
+  .iframe-container {
+    position: relative;
+    width: 100%; /* Full width */
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+    margin-top: 20px; /* Space above the iframe */
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
     border: none;
   }
   
@@ -37,4 +49,3 @@
   .btn-maps:hover {
     background-color: #0056b3; /* Darker shade on hover */
   }
-  
