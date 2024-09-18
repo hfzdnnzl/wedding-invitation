@@ -1,0 +1,45 @@
+.wedding-date {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .countdown {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the items */
+    margin-top: 20px;
+  }
+  
+  .countdown-item {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center; /* Center text within each item */
+  }
+  
+  .countdown-item span {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  

@@ -1,17 +1,14 @@
 import React from 'react';
-import '../styles/app.css';  // Link to your custom CSS if required
+import '../styles/Header.css';  // Link to your custom CSS if required
 
 const Header = () => {
   return (
-    <header>
-      <nav className="navbar">
-        <h1>Wedding Invitation</h1>
-        <ul className="nav-links">
-          <li><a href="#event-info">Event Info</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#rsvp">RSVP</a></li>
-        </ul>
-      </nav>
+    <header className="header">
+      <div className="overlay"></div>
+      <div className="container">
+        <h1 className="title">Wedding Invitation</h1>
+        <p className="subtitle">Join us for a special celebration</p>
+      </div>
     </header>
   );
 };

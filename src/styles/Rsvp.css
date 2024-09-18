@@ -1,0 +1,18 @@
+.rsvp {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .btn-rsvp {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-rsvp:hover {
+    background-color: #0056b3;
+  }
+  
