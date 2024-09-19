@@ -1,8 +1,8 @@
 {
-  "name": "wedding-invitation",
+  "name": "wedding-invitation-v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hfzdnnzl.github.io/wedding-invitation",
+  "homepage": "https://hfzdnnzl.github.io/wedding-invitation-v1",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
