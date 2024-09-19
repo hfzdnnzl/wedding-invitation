@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import '../styles/WeddingDate.css';
 
 const WeddingDate = () => {
-  const weddingDate = new Date('2025-05-17T00:00:00'); // Set the wedding date
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
+    const weddingDate = new Date('2025-05-17T00:00:00'); // Set the wedding date
     const interval = setInterval(() => {
       const now = new Date();
       const timeRemaining = weddingDate - now;
@@ -25,7 +25,7 @@ const WeddingDate = () => {
     }, 1000);
 
     return () => clearInterval(interval); // Cleanup the interval on unmount
-  }, [weddingDate]);
+  }, []);
 
   return (
     <section className="wedding-date">
