@@ -1,21 +1,18 @@
 .App {
-  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arial', sans-serif; /* Fallback font */
+  font-family: 'Josefin Sans', sans-serif; /* Fallback font */
 }
 
-h1, h2, h3 {
-  margin: 0 0 20px;
+h1, h2 {
   font-family: 'Sacramento', cursive;
 }
 
 p {
   line-height: 1.5;
   margin-bottom: 20px;
-  font-family: 'Arial', sans-serif;
 }

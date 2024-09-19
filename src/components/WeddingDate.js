@@ -27,13 +27,11 @@ const WeddingDate = () => {
     return () => clearInterval(interval); // Cleanup the interval on unmount
   }, [weddingDate]);
 
-  const formattedDate = `${String(weddingDate.getDate()).padStart(2, '0')}/${String(weddingDate.getMonth() + 1).padStart(2, '0')}/${weddingDate.getFullYear()}`;
-
   return (
     <section className="wedding-date">
       <div className="container">
         <h2>Tarikh Persandingan</h2>
-        <h3>{formattedDate}</h3>
+        <h3>Sabtu, 17 Mei 2025</h3>
         <div className="countdown">
           <div className="countdown-item">
             <span>{countdown.days}</span> Hari

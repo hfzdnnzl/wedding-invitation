@@ -2,17 +2,12 @@ import React from 'react';
 import '../styles/MapLocation.css';
 
 const MapLocation = () => {
-  const googleMapsLink = "https://maps.app.goo.gl/ofyfd3s4fXCy2H5S8"; // Replace with your venue's link
 
   return (
     <section className="map-location">
       <div className="container">
-        <h2>Wedding Location</h2>
-        <p>Join us at our beautiful venue:</p>
-
-        <a href={googleMapsLink} target="_blank" rel="noopener noreferrer">
-          <button className="btn-maps">Open in Google Maps</button>
-        </a>
+        <h2>Lokasi Majlis</h2>
+        <p>Awangan Palace, Kuantan</p>
         
         <div className="iframe-container">
           <iframe
